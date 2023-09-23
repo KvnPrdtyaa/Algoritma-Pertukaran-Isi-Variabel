@@ -1,4 +1,4 @@
-# Algoritma pertukaran isi variabel
+# Algoritma Pertukaran Isi Variabel
 
 1. Deklarasi A dan B dengan nilai awal masing-masing
 A = 10 dan B = 5
