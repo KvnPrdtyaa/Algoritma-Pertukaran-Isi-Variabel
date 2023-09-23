@@ -9,19 +9,21 @@ int main() {
   int C;
 
   // Cetak Nilai Sebelum Pertukaran
-  std::cout << "Sebelum pertukaran:" << std::endl;
-  std::cout << "Nilai A adalah " << A << std::endl;
-  std::cout << "Nilai B adalah " << B << std::endl;
+  cout << "Sebelum pertukaran:" << endl;
+  cout << "Nilai A adalah " << A << endl;
+  cout << "Nilai B adalah " << B << endl;
 
-  // Menukar Nilai A Dan B Menggunakan Variabel C
+  // Menetapkan nilai A ke C
   C = A;
+  // Menetapkan nilai B ke A
   A = B;
+  // Menetapkan nilai C ke B
   B = C;
 
   // Cetak A Dan B Setelah Pertukaran
-  std::cout << "Setelah pertukaran:" << std::endl;
-  std::cout << "Nilai A sekarang adalah " << A << std::endl;
-  std::cout << "Nilai B sekarang adalah " << B << std::endl;
+  cout << "Setelah pertukaran:" << endl;
+  cout << "Nilai A sekarang adalah " << A << endl;
+  cout << "Nilai B sekarang adalah " << B << endl;
 
   return 0;
 }
